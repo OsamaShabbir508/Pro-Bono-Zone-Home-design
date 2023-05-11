@@ -1,5 +1,5 @@
 import React from 'react'
-// import HeroImage from '../assets/Hero.png'
+import HeroImage from '../assets/Hero.png'
 import YourSolutionImage from '../assets/Your Solution.png'
 import HowItsWork from '../assets/How it Works.png'
 import YourAdvocate from '../assets/YourAdvocate.png'
@@ -14,7 +14,7 @@ import OfferCard from '../component/OfferCard/OfferCard'
 export default function index() {
     return (
         <>
-            {/* <div className='bg-[#061133]'>
+            <div className='bg-[#061133]'>
                 <Navbar />
                 <div className='text-[#fff] flex flex-row  m-auto  w-[70%]  h-80 '>
                     <div className='  relative  lg:w-[70%] md:w-full '>
@@ -29,12 +29,12 @@ export default function index() {
 
                 </div>
 
-            </div> */}
+            </div>
             <div className=' flex  flex-col items-center justify-center  sm:flex-col md:flex-row md:justify-start md:items-start  lg:flex-row lg:justify-start  px-10 py-6' >
-                <div className='w-96'>
-                    {/* <img src={HowItsWork}></img> */}
+                <div className='w-64 md:w-96 lg:w-96'>
+                    <img src={HowItsWork}></img>
                 </div>
-                <div className='ml-16   mt-6 '>
+                <div className='ml-0 md:ml-16 lg:ml-16   mt-6 '>
                     <h1 className='font-bold text-2xl'>How It Works</h1>
                     <li className='text-xs font-normal leading-5'>Select an available 30-minute time slot.</li>
                     <li className='text-xs font-normal leading-5'>Choose your area of interest.</li>
@@ -60,34 +60,34 @@ export default function index() {
                 </div>
             </div>
 
-            {/* <div className='flex  flex-col items-center justify-center sm:flex-col md:flex-row md:justify-evenly md:items-center lg:flex-row lg:items-center lg:justify-evenly  px-8 py-20'>
+            <div className='flex  flex-col items-center justify-center sm:flex-col md:flex-row md:justify-evenly md:items-center lg:flex-row lg:items-center lg:justify-evenly mx-4 px-0 py-0 md:px-8 md:py-20 lg:px-8 lg:py-20'>
                 <div className=' sm:w-full md:w-[50%] lg:w-[50%] '>
                     <h1 className='text-2xl font-bold'> Your Solution</h1>
                     <p className='mt-8 text-[#414141]'>Fear is a formidable opponent. But we have the power to change our trajectory. Pro Bono Zone gives you a convenient way to get valuable insights into your circumstances in a private and safe environment. Any legal issue can be covered in your FREE 30-minute consultation.You deserve an opinion. We offer the following at a neutral venue:</p>
-                    <div className=' w-96 mt-6   flex flex-row justify-between '>
+                    <div className=' w-72 sm:w-96 md:w-96 lg:w-96 mt-6   flex flex-row justify-between '>
                         <div className='space-y-2'>
                             <div className='flex  flex-row items-center flex-wrap  '>
                                 <p className=' flex  flex-col items-center justify-center pb-1 bg-[#4270FF]  text-white text-2xl  w-4 h-4 rounded-lg '>+</p>
-                                <p className='ml-2'>Excercise</p>
+                                <p className='ml-2 text-xs md:text-lg lg:text-lg'>Excercise</p>
                             </div>
                             <div className='flex  flex-row items-center flex-wrap  '>
                                 <p className=' flex  flex-col items-center justify-center pb-1 bg-[#4270FF]  text-white text-2xl  w-4 h-4 rounded-lg '>+</p>
-                                <p className='ml-2'>Competence </p>
+                                <p className='ml-2 text-xs md:text-lg lg:text-lg'>Competence </p>
                             </div>
                             <div className='flex  flex-row items-center flex-wrap  '>
                                 <p className=' flex  flex-col items-center justify-center pb-1 bg-[#4270FF]  text-white text-2xl  w-4 h-4 rounded-lg '>+</p>
-                                <p className='ml-2'>Privacy </p>
+                                <p className='ml-2 text-xs md:text-lg lg:text-lg'>Privacy </p>
                             </div>
                         </div>
 
                         <div className='space-y-2'>
                             <div className='flex  flex-row items-center flex-wrap  '>
                                 <p className=' flex  flex-col items-center justify-center pb-1 bg-[#4270FF]  text-white text-2xl  w-4 h-4 rounded-lg '>+</p>
-                                <p className='ml-2'>Sensitivity </p>
+                                <p className='ml-2 text-xs md:text-lg lg:text-lg'>Sensitivity </p>
                             </div>
                             <div className='flex  flex-row items-center flex-wrap  '>
                                 <p className=' flex  flex-col items-center justify-center pb-1 bg-[#4270FF]  text-white text-2xl  w-4 h-4 rounded-lg '>+</p>
-                                <p className='ml-2'>Affordability (It’s free!)</p>
+                                <p className='ml-2 text-xs md:text-lg lg:text-lg'>Affordability (It’s free!)</p>
                             </div>
                         </div>
 
@@ -96,11 +96,11 @@ export default function index() {
                     <div className=' flex justify-center  md:mt-8  md:justify-start lg:mt-8 lg:justify-start '>
                         <Button buttonText={'Schedule a Free Consultation'} />
                     </div>                </div>
-                <div className=' sm:w-full md:w-[40%] mt-4 lg:w-[40%]   '>
+                <div className=' sm:w-full md:w-[40%] mt-4 lg:w-[40%]  '>
                     <img src={YourSolutionImage} className='w-[300px] h-[300px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px]  '></img>
 
                 </div>
-            </div> */}
+            </div>
 
             <div className='  py-10 relative '>
                 <img src={YourAdvocate} className='absolute -z-20 h-[100%] md:w-[100%] lg:[100%]'></img>
