@@ -23,9 +23,9 @@ export default function index() {
                         <p className=' text-xs font-normal leading-5 mt-3  lg:w-[45%] md:w-full'>Confronting important legal matters head on can be a daunting task. Pro Bono Zone empowers you to explore your options in a safe, private and supportive environment. And it is FREE!</p>
                     </div>
 
-                    <div className=' absolute  lg:left-[38%] lg:top-20  lg:w-80 lg:h-80 md:top-48 md:w-full md:h-96 md:left-40'>
+                    {/* <div className=' absolute  lg:left-[38%] lg:top-20  lg:w-80 lg:h-80 md:top-48 md:w-full md:h-96 md:left-40'>
                         <img src={HeroImage} className='w-auto h-auto '></img>
-                    </div>
+                    </div> */}
 
                 </div>
 
