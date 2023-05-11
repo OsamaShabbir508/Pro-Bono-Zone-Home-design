@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../assets/Group 6.png'
+import Logo from '../../assets/Group6.png'
 
 export default function navbar() {
   return (
