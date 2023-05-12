@@ -36,20 +36,24 @@ export default function index() {
       <div className="bg-[#061133] py-4">
         <Navbar />
 
-        <h1 className="text-center sm:text-center md:text-center lg:text-left font-inter font-bold text-white text-3xl lg:text-5xl leading-10  lg:w-[700px] w-full  my-1 lg:ml-44">
+
+
+
+        <h1 className="text-center sm:text-center md:text-center lg:text-left font-inter font-bold text-white text-3xl lg:text-4xl leading-10  lg:w-[700px] w-full  my-1 lg:ml-44">
           EQUAL ACCESS TO JUSTICE FOR EVERYONE
         </h1>
 
         <div className=" flex flex-col-reverse  items-center lg:flex lg:flex-row lg:items-start mx-4 lg:ml-44  ">
           <div>
-            <p className=" text-sm text-white font-normal leading-5 mt-5 w-full  text-center lg:text-left  lg:w-[360px]  ">
-              Confronting important legal matters head on can be a daunting task.
-              Pro Bono Zone empowers you to explore your options in a safe,
-              private and supportive environment. And it is FREE!
-            </p>
-            <div className="  flex flex-row justify-center lg:justify-start mt-6">
-              <Button buttonText={"Schedule a Free Consultation"} />
-            </div>
+
+          <p className=" text-xs text-white font-normal leading-5 mt-5 w-full  text-center lg:text-left  lg:w-[400px]  ">
+            Confronting important legal matters head on can be a daunting task.
+            Pro Bono Zone empowers you to explore your options in a safe,
+            private and supportive environment. And it is FREE!
+          </p>
+        <div className="  flex flex-row justify-center mt-3">
+        <Button buttonText={"Schedule a Free Consultation"} /> 
+        </div>
           </div>
 
           <img src={HeroImage} className="w-[350px] mt-5 lg:ml-[60px] lg:mt-[-35px]"></img>
