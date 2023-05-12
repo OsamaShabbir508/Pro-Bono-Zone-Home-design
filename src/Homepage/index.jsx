@@ -1,4 +1,8 @@
 import React from 'react'
+import Navbar from '../component/Navbar/navbar'
+import SolutionCard from '../component/SolutionCard/SolutionCard'
+import Button from '../component/button/button'
+import OfferCard from '../component/OfferCard/OfferCard'
 import HeroImage from '../assets/Hero.png'
 import YourSolutionImage from '../assets/Your Solution.png'
 import HowItsWork from '../assets/How it Works.png'
@@ -7,10 +11,22 @@ import FooterLogo from '../assets/Group 6.png'
 import Location from '../assets/Location.png'
 import Youtube from '../assets/Youtube.png'
 import LinkIn from '../assets/LinkIn.png'
-import Navbar from '../component/Navbar/navbar'
-import SolutionCard from '../component/SolutionCard/SolutionCard'
-import Button from '../component/button/button'
-import OfferCard from '../component/OfferCard/OfferCard'
+import LinkedinWhite from '../assets/Linkedin White.png'
+import YoutubeWhite from '../assets/Youtube White.png'
+import FaceBookWhite from '../assets/FaceBook White.png'
+import FaceBook from '../assets/Facebook.png'
+import Linkedin from '../assets/Linkedin.png'
+import Time from '../assets/Time.png'
+import Date from '../assets/Date.png'
+import LocationIcon from '../assets/Location-icon.png'
+import PhoneIcon from '../assets/phone-icon.png'
+import EmailIcon from '../assets/email-icon.png'
+import TheProblem from '../assets/The Problem.png'
+import Model from '../assets/Model.png'
+import Procrastination from '../assets/Procrastination.png'
+import Solution from '../assets/Solution.png'
+
+
 export default function index() {
     return (
         <>
@@ -24,7 +40,7 @@ export default function index() {
                     </div>
 
                     {/* <div className=' absolute  lg:left-[38%] lg:top-20  lg:w-80 lg:h-80 md:top-48 md:w-full md:h-96 md:left-40'>
-                        <img src={HeroImage} className='w-auto h-auto '></img>
+                       <img src={HeroImage} className='w-auto h-auto '></img>
                     </div> */}
 
                 </div>
@@ -52,10 +68,10 @@ export default function index() {
             <div className='flex flex-col py-7 bg-[#F0F4FF] items-center'>
                 <h1 className='text-3xl font-bold'>We Here You</h1>
                 <div className='py-6 px-3  items-center flex flex-row justify-center  flex-wrap'>
-                    <SolutionCard />
-                    <SolutionCard />
-                    <SolutionCard />
-                    <SolutionCard />
+                    <SolutionCard icon={TheProblem} heading={'The Problem'} para='Why do we hesitate to talk with an attorney? We are embarrassed. We fear judgement and insensitivity. We avoid change and commitment. We worry about the cost.' />
+                    <SolutionCard icon={Procrastination} heading={'Procrastination'} para={'So what do we do? We put off potentially life-changing actionand remain stuck indefinitely in an unresolved situation.'}/>
+                    <SolutionCard icon={Model} heading={'Model'} para='However, what is the first thing the successful do before changing direction?They get a legal opinion! They know attorneys make them money, so they take action.'/>
+                    <SolutionCard icon={Solution} heading={'Solution'} para='Pro Bono Zone arranges your private consultation with a sensitive attorneyin a safe neutral environment And it’s absolutely free.'/>
 
                 </div>
             </div>
@@ -108,8 +124,8 @@ export default function index() {
                 <p className=' text-center text-white text-sm mt-4 px-5 md:px-36 lg:px-36'>Our vetting process ensures that your advocate will be a discrete and sensitive attorney from one of the most experienced firms who are committed to community service. You will have a full 30 minutes to discuss any legal questions on your mind.</p>
                 <div className='flex flex-row justify-center  flex-wrap  mt-8'>
                     <OfferCard />
-                    <OfferCard />
-                    <OfferCard />
+                    <OfferCard  />
+                    <OfferCard  />
                 </div>
             </div>
 
@@ -122,14 +138,14 @@ export default function index() {
                     <div className='w-[100%] md:w-[50%] lg:w-[50%]  '>
                         <h1 className='text-[#061133] font-bold text-2xl'>Event Venue </h1>
                         <div className='flex  flex-row items-center flex-wrap mt-4'>
-                            <p className=' flex  flex-col items-center justify-center w-7  '><img src={Location}></img></p>
+                            <p className=' flex  flex-col items-center justify-center w-7  '><img src={Date}></img></p>
                             <div className='flex  flex-col '>
                                 <p className='ml-2 text-[#414141] text-sm'>Date </p>
                                 <p className='ml-2 text-[#061133] text-sm'>Friday, June 23rd </p>
                             </div>
                         </div>
                         <div className='flex  flex-row items-center flex-wrap mt-4 '>
-                            <p className=' flex  flex-col items-center justify-center  w-7 '><img src={Location}></img></p>
+                            <p className=' flex  flex-col items-center justify-center  w-7 '><img src={Time}></img></p>
                             <div className='flex  flex-col '>
                                 <p className='ml-2 text-[#414141] text-sm'>Time </p>
                                 <p className='ml-2 text-[#061133] text-sm'>10PM - 2AM</p>
@@ -145,8 +161,8 @@ export default function index() {
                         <div className='py-4'>
                             <h1 className='text-[#061133] font-bold text-2xl'>Social Media </h1>
                             <div className='flex fle-row space-x-2 w-6 mt-2'>
-                                <img src={Youtube}></img>
-                                <img src={Youtube}></img>
+                                <img src={FaceBook}></img>
+                                <img src={Linkedin}></img>
                                 <img src={Youtube}></img>
                             </div>
                         </div>
@@ -191,10 +207,10 @@ export default function index() {
                         <img src={FooterLogo} className='w-40'></img>
                         <p className='mt-3'>© Copyright 2023 - ProBonoZoneTM<br />
                             All Rights Reserved </p>
-                        <div className='flex fle-row  w-6 mt-2'>
-                            <img src={Youtube}></img>
-                            <img src={Youtube}></img>
-                            <img src={Youtube}></img>
+                        <div className='flex fle-row space-x-2 w-6 mt-2'>
+                            <img src={FaceBookWhite}></img>
+                            <img src={LinkedinWhite}></img>
+                            <img src={YoutubeWhite}></img>
                         </div>
                     </div>
                     <div className='text-white'>
@@ -217,15 +233,15 @@ export default function index() {
                     <div className='text-white'>
                         <h1 className='font-semibold'>Reach us</h1>
                         <div className='flex  flex-row items-center flex-wrap mt-4'>
-                            <p className=' flex  flex-col items-center justify-center w-4  '><img src={Location}></img></p>
+                            <p className=' flex  flex-col items-center justify-center w-4  '><img src={EmailIcon}></img></p>
                             <p className='ml-2 text-white text-sm'>hello@PBZ.com </p>
                         </div>
                         <div className='flex  flex-row items-center flex-wrap mt-4'>
-                            <p className=' flex  flex-col items-center justify-center w-4  '><img src={Location}></img></p>
+                            <p className=' flex  flex-col items-center justify-center w-4  '><img src={PhoneIcon}></img></p>
                             <p className='ml-2 text-white text-sm'>+1 987 654 3210 </p>
                         </div>
                         <div className='flex  flex-row items-center flex-wrap mt-4'>
-                            <p className=' flex  flex-col items-center justify-center w-4  '><img src={Location}></img></p>
+                            <p className=' flex  flex-col items-center justify-center w-4  '><img src={LocationIcon}></img></p>
                             <p className='ml-2 text-white text-sm'>SLC Hilton 2345 Skyview
                                 Ave. SLC. </p>
                         </div>
