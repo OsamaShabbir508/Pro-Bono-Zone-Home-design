@@ -35,10 +35,6 @@ export default function index() {
     <>
       <div className="bg-[#061133] py-4">
         <Navbar />
-
-
-
-
         <h1 className="text-center sm:text-center md:text-center lg:text-left font-inter font-bold text-white text-3xl lg:text-4xl leading-10  lg:w-[700px] w-full  my-1 lg:ml-44">
           EQUAL ACCESS TO JUSTICE FOR EVERYONE
         </h1>
@@ -51,7 +47,7 @@ export default function index() {
             Pro Bono Zone empowers you to explore your options in a safe,
             private and supportive environment. And it is FREE!
           </p>
-        <div className="  flex flex-row justify-center mt-3">
+        <div className="  flex flex-row justify-center  lg:justify-start mt-3">
         <Button buttonText={"Schedule a Free Consultation"} /> 
         </div>
           </div>
@@ -338,14 +334,14 @@ export default function index() {
           <div className="bg-gray-600 w-72 sm:w-96 md:w-96 lg:w-96  h-12 rounded-sm  md:m-5  lg:m-5">
             <input
               placeholder="Enter your email here..."
-              className="w-48 sm:w-72 md:w-72 lg:w-72 h-12 px-4 text-sm text-[#FFFFFF] bg-transparent border-none outline-none"
+              className="w-48 sm:w-72 md:w-72 lg:w-72 h-12 px-4 text-sm text-[#FFFFFF] placeholder:text-white bg-transparent border-none outline-none"
             />
             <button className="bg-[#4270FF] rounded-md px-5 py-2  text-sm text-white">
               Register
             </button>
           </div>
         </div>
-        <div className="flex flex-row flex-wrap justify-center   md:flex-row  md:justify-evenly  lg:flex-row  lg:justify-evenly   mt-5 py-5">
+        <div className="flex flex-row flex-wrap justify-center    md:flex-row  md:justify-evenly  lg:flex-row  lg:justify-evenly   mt-5 py-5">
           <div className="text-white w-[250px] sm:[280px]  md:w-auto lg:w-auto">
             <img src={FooterLogo} className="w-20 md:w-40 lg:w-40"></img>
             <p className="mt-3">
