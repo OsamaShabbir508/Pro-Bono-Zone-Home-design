@@ -5,12 +5,11 @@ import Button from "../component/button/button";
 import OfferCard from "../component/OfferCard/OfferCard";
 import HeroImage from "../assets/Hero.png";
 import YourSolutionImage from "../assets/YourSolution.png";
-import HowItsWork from "../assets/HowitWorks.png";
+import HowItsWorkImage from "../assets/HowItsWorkImage.jpeg";
 import YourAdvocate from "../assets/YourAdvocate.png";
 import FooterLogo from "../assets/Group6.png";
 import Location from "../assets/Location.png";
 import Youtube from "../assets/Youtube.png";
-import LinkIn from "../assets/LinkIn.png";
 import LinkedinWhite from "../assets/Linkedin White.png";
 import YoutubeWhite from "../assets/Youtube White.png";
 import FaceBookWhite from "../assets/FaceBook White.png";
@@ -26,6 +25,9 @@ import Model from "../assets/Model.png";
 import Procrastination from "../assets/Procrastination.png";
 import Solution from "../assets/Solution.png";
 import Tick from "../assets/Tick.png";
+import SmithJones from "../assets/SmithJones.png";
+import McIntoshTronton from "../assets/McIntoshTronton.png";
+import AyalaSmithDickens from "../assets/AyalaSmithDickens.png";
 
 
 export default function index() {
@@ -38,49 +40,49 @@ export default function index() {
           EQUAL ACCESS TO JUSTICE FOR EVERYONE
         </h1>
 
-        <div className=" flex flex-col-reverse  items-center lg:flex lg:flex-row lg:items-start mx-4 lg:ml-44 ">
+        <div className=" flex flex-col-reverse  items-center lg:flex lg:flex-row lg:items-start mx-4 lg:ml-44  ">
           <div>
-
-          <p className=" text-xs text-white font-normal leading-5 mt-5 w-full  text-center lg:text-left  lg:w-[400px]  ">
-            Confronting important legal matters head on can be a daunting task.
-            Pro Bono Zone empowers you to explore your options in a safe,
-            private and supportive environment. And it is FREE!
-          </p>
-        <div className="  flex flex-row justify-center mt-3">
-        <Button buttonText={"Schedule a Free Consultation"} /> 
-        </div>
+            <p className=" text-sm text-white font-normal leading-5 mt-5 w-full  text-center lg:text-left  lg:w-[360px]  ">
+              Confronting important legal matters head on can be a daunting task.
+              Pro Bono Zone empowers you to explore your options in a safe,
+              private and supportive environment. And it is FREE!
+            </p>
+            <div className="  flex flex-row justify-center lg:justify-start mt-6">
+              <Button buttonText={"Schedule a Free Consultation"} />
+            </div>
           </div>
-          <img src={HeroImage} className="w-[400px] mt-5 lg:mt-[-40px]"></img>
+
+          <img src={HeroImage} className="w-[350px] mt-5 lg:ml-[60px] lg:mt-[-35px]"></img>
         </div>
       </div>
-      <div className=" flex  flex-col items-center justify-center  sm:flex-col md:flex-row md:justify-start md:items-start  lg:flex-row lg:justify-start  px-10 py-6">
-        <div className="w-64 md:w-96 lg:w-96">
-          <img src={HowItsWork}></img>
+      <div className=" flex  flex-col  items-center justify-center  sm:flex-col md:flex-row md:justify-start md:items-start  lg:flex-row lg:justify-start py-6 px-0  md:px-14 md:py-6 lg:px-14 lg:py-6">
+        <div className=" ">
+          <img src={HowItsWorkImage} className=""></img>
         </div>
         <div className="ml-0 md:ml-16 lg:ml-16   mt-6 ">
           <h1 className="font-bold text-2xl">HOW IT WORKS </h1>
-          <li className="text-xs font-normal leading-5">
+          <li className="text-xs font-normal leading-5 text-[#414141]">
             Select an available 30-minute time slot.
           </li>
-          <li className="text-xs font-normal leading-5">
+          <li className="text-xs font-normal leading-5 text-[#414141]">
             Choose your area of interest.
           </li>
-          <li className="text-xs font-normal leading-5">
+          <li className="text-xs font-normal leading-5 text-[#414141]">
             Prepare your legal questions{" "}
           </li>
-          <li className="text-xs font-normal leading-5">
+          <li className="text-xs font-normal leading-5 text-[#414141]">
             Arrive 15 minutes early.
           </li>
-          <li className="text-xs font-normal leading-5">
+          <li className="text-xs font-normal leading-5 text-[#414141]">
             Meet our friendly staff for orientation.
           </li>
-          <li className="text-xs font-normal leading-5">
+          <li className="text-xs font-normal leading-5 text-[#414141]">
             Consult with an experienced attorney
           </li>
-          <li className="text-xs font-normal leading-5">Change your life!</li>
+          <li className="text-xs font-normal leading-5 text-[#414141]">Change your life!</li>
           <div className="mt-4">
           </div>
-            <Button buttonText={"Schedule a Free Consultation"} />
+          <Button buttonText={"Schedule a Free Consultation"} />
         </div>
       </div>
       <div className="flex flex-col py-7 bg-[#F0F4FF] items-center">
@@ -130,13 +132,13 @@ export default function index() {
             <div className="space-y-2">
               <div className="flex  flex-row items-center flex-wrap  ">
                 <p className=" flex  flex-col items-center justify-center  bg-[#4270FF]  text-white text-2xl  w-4 h-4 rounded-lg ">
-                  <img src={Tick}></img>
+                  <img src={Tick} className="p-1"></img>
                 </p>
                 <p className="ml-2 text-xs md:text-lg lg:text-lg">Experience</p>
               </div>
               <div className="flex  flex-row items-center flex-wrap  ">
                 <p className=" flex  flex-col items-center justify-center  bg-[#4270FF]  text-white text-2xl  w-4 h-4 rounded-lg ">
-                <img src={Tick}></img>
+                  <img src={Tick} className="p-1"></img>
 
                 </p>
                 <p className="ml-2 text-xs md:text-lg lg:text-lg">
@@ -145,7 +147,7 @@ export default function index() {
               </div>
               <div className="flex  flex-row items-center flex-wrap  ">
                 <p className=" flex  flex-col items-center justify-center  bg-[#4270FF]  text-white text-2xl  w-4 h-4 rounded-lg ">
-                <img src={Tick}></img>
+                  <img src={Tick} className="p-1"></img>
 
                 </p>
                 <p className="ml-2 text-xs md:text-lg lg:text-lg">Privacy </p>
@@ -155,7 +157,7 @@ export default function index() {
             <div className="space-y-2">
               <div className="flex  flex-row items-center flex-wrap  ">
                 <p className=" flex  flex-col items-center justify-center  bg-[#4270FF]  text-white text-2xl  w-4 h-4 rounded-lg ">
-                <img src={Tick}></img>
+                  <img src={Tick} className="p-1"></img>
 
                 </p>
                 <p className="ml-2 text-xs md:text-lg lg:text-lg">
@@ -164,7 +166,7 @@ export default function index() {
               </div>
               <div className="flex  flex-row items-center flex-wrap  ">
                 <p className=" flex  flex-col items-center justify-center  bg-[#4270FF]  text-white text-2xl  w-4 h-4 rounded-lg ">
-                <img src={Tick}></img>
+                  <img src={Tick} className="p-1"></img>
 
                 </p>
                 <p className="ml-2 text-xs md:text-lg lg:text-lg">
@@ -208,9 +210,9 @@ export default function index() {
           discuss any legal questions on your mind.
         </p>
         <div className="flex flex-row justify-center  flex-wrap  mt-8">
-          <OfferCard />
-          <OfferCard />
-          <OfferCard />
+          <OfferCard image={SmithJones} name={'Smith Jones'} age={'45 years'} hours={'290 pro bono hours'} person={'Immigration'} />
+          <OfferCard image={AyalaSmithDickens} age={'45 years'} name={'Ayala, Smith & Dickens'} hours={'290 pro bono hours'} person={'Immigration'} />
+          <OfferCard image={McIntoshTronton} age={'45 years'} name={'McIntosh & Tronton'} hours={'290 pro bono hours'} person={'general practice'} />
         </div>
       </div>
 
@@ -233,7 +235,7 @@ export default function index() {
               </p>
               <div className="flex  flex-col ">
                 <p className="ml-2 text-[#414141] text-sm">Date </p>
-                <p className="ml-2 text-[#061133] text-sm">
+                <p className="ml-2 text-[#061133] font-semibold text-sm">
                   Friday, June 23rd{" "}
                 </p>
               </div>
@@ -244,7 +246,7 @@ export default function index() {
               </p>
               <div className="flex  flex-col ">
                 <p className="ml-2 text-[#414141] text-sm">Time </p>
-                <p className="ml-2 text-[#061133] text-sm">10PM - 2AM</p>
+                <p className="ml-2 text-[#061133] font-semibold text-sm">10PM - 2AM</p>
               </div>
             </div>{" "}
             <div className="flex  flex-row items-center flex-wrap mt-4">
@@ -253,7 +255,7 @@ export default function index() {
               </p>
               <div className="flex  flex-col ">
                 <p className="ml-2 text-[#414141] text-sm">Location </p>
-                <p className="ml-2 text-[#061133] text-sm">
+                <p className="ml-2 text-[#061133]  font-semibold text-sm">
                   Suite 251, 2356 Main Street, Lehi, Utah{" "}
                 </p>
               </div>
@@ -279,31 +281,31 @@ export default function index() {
               <input
                 type="text"
                 className="py-2 px-3 bg-gray-100  text-sm text-[#414141] rounded-sm m-2"
-                placeholder="First Name"
+                placeholder="Last Name"
               ></input>
             </div>
             <div className="flex flex-col justify-center md:flex-row lg:flex-row  flex-wrap  ">
               <input
                 type="text"
                 className="py-2 px-3 bg-gray-100  text-sm text-[#414141] rounded-sm m-2"
-                placeholder="First Name"
+                placeholder="Email"
               ></input>
               <input
                 type="text"
                 className="py-2 px-3 bg-gray-100  text-sm text-[#414141] rounded-sm m-2"
-                placeholder="First Name"
+                placeholder="Phone"
               ></input>
             </div>
             <div className="flex flex-col justify-center md:flex-row lg:flex-row  flex-wrap  ">
               <input
                 type="text"
                 className="py-2 px-3 bg-gray-100  text-sm text-[#414141] rounded-sm m-2"
-                placeholder="First Name"
+                placeholder="Category"
               ></input>
               <input
                 type="text"
                 className="py-2 px-3 bg-gray-100  text-sm text-[#414141] rounded-sm m-2"
-                placeholder="First Name"
+                placeholder="Time"
               ></input>
             </div>
 
@@ -312,11 +314,11 @@ export default function index() {
                 name=""
                 id=""
                 placeholder="How did you hear about Pro Bono Zone?"
-                className="bg-gray-100 px-4 m-auto w-full md:w-96 lg:w-96 h-20 md:m-2"
+                className="bg-gray-100  m-auto w-full md:w-96 lg:w-96 h-20 md:m-2"
               ></textarea>
             </div>
-            <div className=" flex justify-center mt-6  md:justify-center lg:justify-center ">
-              <button className="bg-[#4270FF] w-full py-2 rounded-sm text-white text-sm">
+            <div className=" flex justify-center mt-3 md:justify-center lg:justify-center ">
+              <button className="bg-[#4270FF] w-full  py-2 rounded-sm text-white text-sm mx-1 lg:mx-4 lg:w-96">
                 Count Me In
               </button>
             </div>
@@ -395,6 +397,8 @@ export default function index() {
           </div>
         </div>
       </div>
+
+
     </>
   );
 }
