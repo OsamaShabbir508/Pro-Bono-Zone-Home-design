@@ -14,7 +14,7 @@ export default function navbar() {
       <p className='cursor-pointer'>Sponcers</p>
       <p className='cursor-pointer'>Contact</p>
       <button className='border border-white px-8 py-2 rounded-sm cursor-pointer'>Login</button>
-      <button className='bg-[#4270FF] px-8 py-2 rounded-sm'>Sign Up</button>
+      <button className='bg-[#4270FF] px-8 py-2 rounded-sm'>Register</button>
     </div>
     </div>
   )

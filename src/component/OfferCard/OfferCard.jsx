@@ -6,8 +6,8 @@ import Immigration from '../../assets/Immigration.png'
 
 export default function OfferCard() {
     return (
-        <div className='bg-[#F0F4FF] w-[290px] h-96 flex flex-row justify-center p-4  m-3 rounded-sm'>
-            <div className='bg-white'>
+        <div className='bg-[#F0F4FF] w-[290px]   flex flex-row justify-center p-4  m-3 rounded-sm'>
+            <div className='bg-white pb-4'>
                 <img src={HowItsWork} className='w-64 h-44'></img>
                 <div className='ml-4'>
                 <h1 className='font-bold text-md mt-4'>Smith & Jones</h1>
